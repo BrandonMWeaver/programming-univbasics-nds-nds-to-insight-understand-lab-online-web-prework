@@ -13,7 +13,7 @@ def print_first_directors_movie_titles
     if directors_database[i][:name] == "Stephen Spielberg"
       j = 0
       while j < directors_database[i][:movies].size do
-        puts "#{directors_database[i][:movies][j]}\n"
+        puts "#{directors_database[i][:movies][j][:title]}\n"
         j += 1
       end
     end
