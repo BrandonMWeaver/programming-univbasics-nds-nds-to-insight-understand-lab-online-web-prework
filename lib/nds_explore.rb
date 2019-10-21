@@ -17,6 +17,7 @@ def print_first_directors_movie_titles
         puts "#{directors_database[i][:movies][j]}\n"
         j += 1
       end
+    end
     i += 1
   end
   
