@@ -6,6 +6,7 @@ database = directors_database
 
 def pretty_print_nds(nds)
   pp nds
+  
   return nil
 end
 
@@ -15,5 +16,6 @@ def print_first_directors_movie_titles
     
     i += 1
   end
+  
   return nil
 end
