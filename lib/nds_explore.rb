@@ -10,7 +10,7 @@ end
 def print_first_directors_movie_titles
   i = 0
   while i < directors_database.size do
-    puts database[i]
+    puts directors_database[i]
     i += 1
   end
   
