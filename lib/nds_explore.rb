@@ -10,5 +10,9 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  
+  i = 0
+  while i < database.size do
+    
+    i += 1
+  end
 end
