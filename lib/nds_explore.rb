@@ -5,7 +5,7 @@ require 'directors_database'
 database = directors_database
 
 def pretty_print_nds(nds)
-  pp database
+  pretty_print_nds database
   nil
 end
 
